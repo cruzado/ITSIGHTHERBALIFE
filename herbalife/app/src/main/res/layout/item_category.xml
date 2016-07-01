@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/home.option.category.height"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/green.herbalife.home"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Category"
+            android:id="@+id/txtCategory"
+            android:textSize="@dimen/home.option.category.textsize"
+            android:textStyle="bold"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/home.option.category.margin"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="@dimen/home.option.category.badge.height"
+            android:layout_height="@dimen/home.option.category.badge.height"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="100"
+            android:textColor="@android:color/white"
+            android:id="@+id/txtBadge"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/background_badge"
+            android:layout_marginRight="150dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="@dimen/home.option.category.badge.size" />
+
+        <ImageView
+            android:layout_width="@dimen/home.option.category.arrow.size"
+            android:layout_height="@dimen/home.option.category.arrow.size"
+            android:id="@+id/imageView3"
+            android:src="@drawable/ico_arrow"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/home.option.category.arrow.margin"
+            android:layout_marginLeft="@dimen/home.option.category.arrow.margin" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray.herbalife.background"/>
+</LinearLayout>

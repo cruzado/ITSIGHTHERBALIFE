@@ -1,0 +1,71 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dialog.boton.height">60dp</dimen>
+
+    <!-- PROGRESS -->
+    <dimen name="loader.size">80dp</dimen>
+
+    <dimen name="login.margin.lade">30dp</dimen>
+    <dimen name="login.margin.top">15dp</dimen>
+    <dimen name="login.margin.bottom">10dp</dimen>
+    <dimen name="login.edittext.height">50dp</dimen>
+    <dimen name="login.button.height">50dp</dimen>
+    <dimen name="login.text.textsize">15sp</dimen>
+
+    <dimen name="home.img.height">130dp</dimen>
+    <dimen name="home.img.width">130dp</dimen>
+    <dimen name="home.img.margin.top">30dp</dimen>
+    <dimen name="home.img.margin.ladding">10dp</dimen>
+    <dimen name="home.img.margin.rigth">10dp</dimen>
+
+    <dimen name="home.text.title.textsize">11sp</dimen>
+    <dimen name="home.text.content.textsize">11sp</dimen>
+
+    <dimen name="home.text.share.textsize">10sp</dimen>
+
+    <dimen name="home.text.bottom.textsize">10sp</dimen>
+
+    <dimen name="home.text.title.top">5dp</dimen>
+    <dimen name="home.text.title.bottom">5dp</dimen>
+    <dimen name="home.text.margin.top">10dp</dimen>
+    <dimen name="home.text.boton.padding">20dp</dimen>
+    <dimen name="home.boton.height">30dp</dimen>
+
+    <dimen name="home.option.margin.negative">-50dp</dimen>
+
+    <dimen name="home.option.height">50dp</dimen>
+    <dimen name="home.menu.height">42dp</dimen>
+
+    <dimen name="home.option.ico.height">24dp</dimen>
+
+
+    <dimen name="home.option.category.height">70dp</dimen>
+    <dimen name="home.option.category.textsize">18sp</dimen>
+    <dimen name="home.option.category.margin">20dp</dimen>
+    <dimen name="home.option.category.arrow.margin">20dp</dimen>
+    <dimen name="home.option.category.arrow.size">20dp</dimen>
+    <dimen name="home.option.category.badge.height">30dp</dimen>
+    <dimen name="home.option.category.badge.padding">5dp</dimen>
+    <dimen name="home.option.category.badge.margin">5dp</dimen>
+    <dimen name="home.option.category.badge.size">10sp</dimen>
+
+    <dimen name="home.category.height">50dp</dimen>
+
+    <dimen name="home.category.padding">4dp</dimen>
+
+    <dimen name="toolbar.text.title">15sp</dimen>
+    <dimen name="searh.text.question.size">10sp</dimen>
+    <dimen name="searh.text.question.top">16dp</dimen>
+    <dimen name="searh.text.edittext.result.size">42sp</dimen>
+    <dimen name="searh.text.edittext.size">44sp</dimen>
+    <dimen name="searh.result.bottom">10dp</dimen>
+
+    <dimen name="share.option.width">45dp</dimen>
+    <dimen name="share.option.height">50dp</dimen>
+
+    <dimen name="share.option.width.negative">-50dp</dimen>
+
+</resources>

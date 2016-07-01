@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/toolbar_title_back" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray.herbalife.background">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/searh.text.question"
+            android:id="@+id/txtQuestion"
+            android:textColor="@color/white"
+            android:textSize="@dimen/searh.text.question.size"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/searh.text.question.top"
+            android:layout_marginLeft="@dimen/searh.text.question.top"
+            android:layout_marginRight="@dimen/searh.text.question.top" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/currentSearh"
+            android:background="#00000000"
+            android:hint="@string/searh.hint.searh"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:textColorHint="@color/gray.herbalife.hint"
+            android:textSize="@dimen/searh.text.edittext.size"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/searh.result.bottom"
+            android:id="@+id/lnyResult"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/searh.text.result"
+                android:id="@+id/textView3"
+                android:textSize="@dimen/searh.text.question.size"
+                android:textColor="@color/gray.herbalife.hint"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="15 Artículos"
+                android:id="@+id/txtResult"
+                android:textSize="@dimen/searh.text.question.size"
+                android:textStyle="italic"
+                android:textColor="@color/white"
+                android:layout_marginLeft="5dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerHome"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/gray.herbalife.background"/>
+</LinearLayout>

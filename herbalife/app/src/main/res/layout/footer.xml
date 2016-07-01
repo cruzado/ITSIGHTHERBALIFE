@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home.menu.height"
+        android:weightSum="3"
+        android:background="@color/green.herbalife.background">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:background="@color/gray.herbalife.background"
+            android:id="@+id/lnyHome">
+
+            <ImageView
+                android:layout_width="@dimen/home.option.ico.height"
+                android:layout_height="@dimen/home.option.ico.height"
+                android:id="@+id/imgHome"
+                android:src="@drawable/ico_home_tab_green"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:id="@+id/lnyFavorite"
+            android:background="@color/green.herbalife.banner">
+
+            <ImageView
+                android:layout_width="@dimen/home.option.ico.height"
+                android:layout_height="@dimen/home.option.ico.height"
+                android:id="@+id/imgFavorite"
+                android:src="@drawable/ico_like_tab_black"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:background="@color/green.herbalife.banner"
+            android:id="@+id/lnySearh">
+
+            <ImageView
+                android:layout_width="@dimen/home.option.ico.height"
+                android:layout_height="@dimen/home.option.ico.height"
+                android:id="@+id/imgSearh"
+                android:src="@drawable/ico_searh_tab_black"
+                android:layout_gravity="center_horizontal" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

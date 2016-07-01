@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_width="@dimen/home.img.width"
+            android:layout_height="@dimen/home.img.height"
+            android:id="@+id/imgNew"
+            android:src="@drawable/img_new_default"
+            android:layout_marginTop="@dimen/home.img.margin.top"
+            android:layout_marginLeft="@dimen/home.img.margin.ladding"
+            android:layout_marginRight="@dimen/home.img.margin.rigth"
+            android:background="@color/black" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/home.img.height"
+            android:layout_marginTop="@dimen/home.img.margin.top">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/home.text.sub"
+                android:id="@+id/txtTitle"
+                android:textColor="@color/black"
+                android:textSize="@dimen/home.text.title.textsize"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/black"
+                android:textSize="@dimen/home.text.title.textsize"
+                android:id="@+id/txtDescription"
+                android:text="@string/home.text.message"
+                android:layout_marginTop="@dimen/home.text.margin.top"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/home.boton.height"
+                android:text="@string/home.text.vermas"
+                android:id="@+id/btnMore"
+                android:textSize="@dimen/home.text.bottom.textsize"
+                android:background="@drawable/background_green_home_borde"
+                android:textColor="@color/green.herbalife.home"
+                android:paddingLeft="@dimen/home.text.boton.padding"
+                android:paddingRight="@dimen/home.text.boton.padding"
+                android:layout_marginTop="@dimen/home.text.margin.top" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:visibility="visible"
+        android:id="@+id/lnyShare"
+        android:layout_marginTop="@dimen/share.option.width.negative">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/home.option.height"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/share.option.width"
+                android:layout_height="match_parent"
+                android:id="@+id/lnyTwt">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2"
+                    android:src="@drawable/twitter_share"
+                    android:scaleType="fitStart" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="@dimen/share.option.width"
+                android:layout_height="@dimen/share.option.height"
+                android:layout_weight="1"
+                android:id="@+id/lnyFb">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView7"
+                    android:src="@drawable/facebook_share" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/lnyWhatsapp">
+
+                <ImageView
+                    android:layout_width="@dimen/share.option.width"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView8"
+                    android:src="@drawable/watsapp_share"
+                    android:scaleType="fitStart"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:id="@+id/vDottedLine"
+        android:background="@drawable/bg_line"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:layerType="software"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="14dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/home.option.height"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:id="@+id/lnyFavorite">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/home.option.ico.height"
+                    android:layout_height="@dimen/home.option.ico.height"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ico_like"
+                    android:id="@+id/imgFavorite" />
+
+                <TextView
+                    android:id="@+id/txtFavoritos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/home.text.favoritos"
+                    android:textColor="@color/green.herbalife.home"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/home.text.share.textsize"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/home.option.height"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:id="@+id/lnyShareOption">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/home.option.ico.height"
+                    android:layout_height="@dimen/home.option.ico.height"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ico_share" />
+
+                <TextView
+                    android:id="@+id/txtCompartir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/home.text.compartir"
+                    android:textColor="@color/green.herbalife.home"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/home.text.share.textsize"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/home.option.height"
+            android:gravity="center_horizontal"
+            android:layout_weight="1"
+            android:id="@+id/lnyDelete">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/home.option.ico.height"
+                    android:layout_height="@dimen/home.option.ico.height"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ico_delete" />
+
+                <TextView
+                    android:id="@+id/txtEliminar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/home.text.eliminar"
+                    android:textColor="@color/green.herbalife.home"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/home.text.share.textsize"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_height="1px"
+        android:layout_width="match_parent"
+        android:background="@color/black"/>
+</LinearLayout>

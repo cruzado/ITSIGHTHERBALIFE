@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Esto es Herbalife</string>
+    <string name="facebook_app_id">1439018093018397</string>
+
+
+    <!-- Strings related to login -->
+    <string name="login.edittext.hint.id">COLOCA TU ID DE HERBALIFE</string>
+    <string name="login.button.text">INGRESA A LA COMUNIDAD</string>
+    <string name="home.text.title">LO MÁS LEÍDO DE LA SEMANA</string>
+    <string name="home.text.sub">SUPLEMENTO DEPORTIVO</string>
+    <string name="home.text.message">Descubre cuál de nuestros atletas acaba de ganar una medalla de oro en un importante evento internacional</string>
+    <string name="home.text.vermas">VER MÁS ></string>
+
+    <string name="home.text.favoritos">FAVORITOS</string>
+    <string name="home.text.compartir">COMPARTIR</string>
+    <string name="home.text.eliminar">ELIMINAR</string>
+    <string name="searh.text.question">¿QUÉ ES LO QUE ESTÁS BUSCANDO?</string>
+    <string name="searh.hint.searh">Buscar</string>
+    <string name="searh.text.result">Se encontraron </string>
+
+    <string name="dialog.message.positive">Aceptar</string>
+
+    <string name="orientation">1</string>
+
+</resources>

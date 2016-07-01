@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="clear">#00FFFFFF</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="green.herbalife.background">#6aabad</color>
+    <color name="green.herbalife.popup">#FF0b3f30</color>
+
+    <color name="green.herbalife.login.text">#6aabad</color>
+    <color name="green.herbalife.home">#6aabad</color>
+    <color name="green.herbalife.home.item">#6aabad</color>
+
+    <color name="green.herbalife.banner">#7FC241</color>
+    <color name="orange.herbalife">#FFBA3B27</color>
+
+    <color name="clear.gray.herbalife.background">#DC000000</color>
+    <color name="gray.herbalife.hint">#FF7d8181</color>
+
+    FF585B5B
+    <color name="gray.herbalife.background">#2F3333</color>
+    <!-- borders-->
+    <color name="borderGray">#dbdcdf</color>
+    <color name="borderGray2">#d7d9d9</color>
+    <color name="borderToggle">#002568</color>
+    <color name="borderToggleItem">#004b8c</color>
+    <color name="borderClicked">#d5e2ee</color>
+    <color name="borderItemsTop">#e0e1e2</color>
+</resources>
